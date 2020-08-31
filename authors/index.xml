@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Ga Young Ko</title>
+    <link>https://gyko24.github.io/authors/</link>
+      <atom:link href="https://gyko24.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ga Young Ko © 2020</copyright>
+    <image>
+      <url>https://gyko24.github.io/images/icon_hu9b02c7b5be7e70ee0131d37a3e92dcbf_32189_512x512_fill_lanczos_center_2.png</url>
+      <title>Authors</title>
+      <link>https://gyko24.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>&#34;Ga Young&#34; Ko</title>
+      <link>https://gyko24.github.io/author/ga-young-ko/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://gyko24.github.io/author/ga-young-ko/</guid>
+      <description>&lt;p&gt;My name is Gayoung Ko (고가영).
+I am a Ph.D. candidate in the Department of Economics at the University of Virginia, where I am advised by &lt;a href=&#34;https://economics.virginia.edu/people/sa9w&#34; target=&#34;_blank&#34;&gt;Prof. Simon Anderson&lt;/a&gt; and &lt;a href=&#34;http://economics.virginia.edu/people/profile/ga6x&#34; target=&#34;_blank&#34;&gt;Prof. Gaurab Aryal&lt;/a&gt;.
+Previously, I worked at &lt;a href=&#34;http://www.lgeri.com/en/index.do&#34; target=&#34;_blank&#34;&gt;LG Economic Research Institute&lt;/a&gt; as a researcher, and obtained my M.A. and B.A. in Economics from &lt;a href=&#34;http://korea.edu/&#34; target=&#34;_blank&#34;&gt;Korea University&lt;/a&gt;.
+My research interests primarily focus on industrial organization, labor and education economics.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

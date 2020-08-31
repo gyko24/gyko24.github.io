@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ga Young Ko</title>
+    <link>https://gyko24.github.io/</link>
+      <atom:link href="https://gyko24.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ga Young Ko</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ga Young Ko © 2020</copyright>
+    <image>
+      <url>https://gyko24.github.io/images/icon_hu9b02c7b5be7e70ee0131d37a3e92dcbf_32189_512x512_fill_lanczos_center_2.png</url>
+      <title>Ga Young Ko</title>
+      <link>https://gyko24.github.io/</link>
+    </image>
+    
+  </channel>
+</rss>
