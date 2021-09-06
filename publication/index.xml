@@ -1,16 +1,48 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Ga Young Ko</title>
+    <title>Research | Ga Young Ko</title>
     <link>https://gyko24.github.io/publication/</link>
       <atom:link href="https://gyko24.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ga Young Ko © 2021</copyright>
+    <description>Research</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Ga Young Ko © 2021</copyright><lastBuildDate>Thu, 05 Aug 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gyko24.github.io/images/icon_hu9b02c7b5be7e70ee0131d37a3e92dcbf_32189_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
+      <title>Research</title>
       <link>https://gyko24.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Gender in Gig Economy: Evidence from Online Auctions for Freelance Jobs</title>
+      <link>https://gyko24.github.io/publication/jmp/</link>
+      <pubDate>Thu, 05 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://gyko24.github.io/publication/jmp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning Outside the Classroom During a Pandemic: Evidence from an Artiﬁcial Intelligence-Based Education App</title>
+      <link>https://gyko24.github.io/publication/qanda_covid/</link>
+      <pubDate>Tue, 03 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://gyko24.github.io/publication/qanda_covid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Gender Gap and its Business Impact: Evidence from an Online Tutoring Platform</title>
+      <link>https://gyko24.github.io/publication/qanda_gender/</link>
+      <pubDate>Mon, 02 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://gyko24.github.io/publication/qanda_gender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human vs. AI: Will AI Allow Humans to Do Tasks that are Best Suited to Them?</title>
+      <link>https://gyko24.github.io/publication/qanda_human_ai/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://gyko24.github.io/publication/qanda_human_ai/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
