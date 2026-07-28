@@ -331,14 +331,14 @@ details.abstract p {
 }
 
 /* ─── Teaching ─── */
-.teaching-block { margin-bottom: 1.75rem; }
+.teaching-block { margin-bottom: 2.25rem; }
 .teaching-block:last-child { margin-bottom: 0; }
 .teaching-block h3 {
   font-style: italic;
   font-weight: 500;
   color: var(--text-muted);
   font-size: 1rem;
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.35rem;
   border-bottom: 1px dotted var(--rule);
   padding-bottom: 0.4rem;
 }
@@ -347,33 +347,59 @@ details.abstract p {
   padding: 0;
   margin: 0;
 }
+/* Course on the left (flexible), term on the right (right-aligned).
+   Grid instead of a fixed min-width, so a long term string can never
+   push the course text out of alignment. */
 .teaching-block li {
-  padding: 0.4rem 0;
-  font-size: 1.05rem;
-  line-height: 1.5;
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  column-gap: 1.75rem;
+  align-items: baseline;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--rule);
+  line-height: 1.45;
 }
-.teaching-block li strong {
+.teaching-block li:last-child { border-bottom: none; }
+
+.course-code {
   font-family: var(--serif-display);
   font-variation-settings: "opsz" 14;
   font-weight: 600;
-  color: var(--accent);
-  margin-right: 0.7rem;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  display: inline-block;
-  min-width: 200px;
-}
-.teaching-block li em {
+  letter-spacing: 0.06em;
   color: var(--text-muted);
-  font-size: 0.88rem;
+  margin-right: 0.55rem;
+  white-space: nowrap;
+}
+.course {
+  font-size: 1.02rem;
+  color: var(--text);
+}
+.course-level {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-style: italic;
+  white-space: nowrap;
+}
+.course-term {
+  font-family: var(--serif-display);
+  font-variation-settings: "opsz" 14;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  text-align: right;
+  white-space: nowrap;
 }
 
-@media (max-width: 480px) {
-  .teaching-block li strong {
-    display: block;
-    margin-bottom: 0.1rem;
+@media (max-width: 560px) {
+  .teaching-block li {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
   }
+  .course-term { text-align: left; white-space: normal; }
+  .course-code { display: block; margin-right: 0; margin-bottom: 0.05rem; }
 }
 
 /* ─── Footer ─── */
@@ -520,20 +546,48 @@ footer {
   <div class="teaching-block">
     <h3>Kyung Hee University</h3>
     <ul>
-      <li><strong>Spring 2026</strong>ECON7015 &middot; Industrial Organization <em>(graduate)</em></li>
-      <li><strong>Spring 2026</strong>ECON3001 &middot; Industrial Organization <em>(undergraduate)</em></li>
-      <li><strong>Fall 2025</strong>CSS311 &middot; Machine Learning for Social Science <em>(undergraduate)</em></li>
-      <li><strong>Fall 2024</strong>ECON7012 &middot; Economics Seminar <em>(graduate)</em></li>
-      <li><strong>Spring 2024, 2025, 2026</strong>ECON1001 &middot; Principles of Economics <em>(undergraduate)</em></li>
-      <li><strong>Spring 2024, Fall 2025</strong>ECON2042 &middot; Microeconomics <em>(undergraduate)</em></li>
+      <li>
+        <span class="course"><span class="course-code">ECON1001</span>Principles of Economics <span class="course-level">(undergraduate)</span></span>
+        <span class="course-term">Spring 2024, 2025, 2026</span>
+      </li>
+      <li>
+        <span class="course"><span class="course-code">ECON2042</span>Microeconomics <span class="course-level">(undergraduate)</span></span>
+        <span class="course-term">Spring 2024 / Fall 2025, 2026</span>
+      </li>
+      <li>
+        <span class="course"><span class="course-code">ECON3001</span>Theory of Industrial Organization <span class="course-level">(undergraduate)</span></span>
+        <span class="course-term">Spring 2026</span>
+      </li>
+      <li>
+        <span class="course"><span class="course-code">ECON3060</span>Capstone Design 2 (Economics) <span class="course-level">(undergraduate)</span></span>
+        <span class="course-term">Fall 2026</span>
+      </li>
+      <li>
+        <span class="course"><span class="course-code">CSS311</span>Intro to Machine Learning for Social Sciences <span class="course-level">(undergraduate)</span></span>
+        <span class="course-term">Fall 2025, 2026</span>
+      </li>
+      <li>
+        <span class="course"><span class="course-code">ECON7012</span>Seminar in Economic Theory <span class="course-level">(graduate)</span></span>
+        <span class="course-term">Fall 2024</span>
+      </li>
+      <li>
+        <span class="course"><span class="course-code">ECON7015</span>Industrial Organization <span class="course-level">(graduate)</span></span>
+        <span class="course-term">Spring 2026</span>
+      </li>
     </ul>
   </div>
 
   <div class="teaching-block">
     <h3>University of Tennessee, Knoxville</h3>
     <ul>
-      <li><strong>Fall 2022, 2023</strong>ECON435 &middot; Industrial Organization <em>(undergraduate)</em></li>
-      <li><strong>Spring 2023</strong>ECON632 &middot; Industrial Organization II <em>(graduate)</em></li>
+      <li>
+        <span class="course"><span class="course-code">ECON435</span>Industrial Organization <span class="course-level">(undergraduate)</span></span>
+        <span class="course-term">Fall 2022, 2023</span>
+      </li>
+      <li>
+        <span class="course"><span class="course-code">ECON632</span>Industrial Organization II <span class="course-level">(graduate)</span></span>
+        <span class="course-term">Spring 2023</span>
+      </li>
     </ul>
   </div>
 </section>
